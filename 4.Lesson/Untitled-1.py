@@ -24,3 +24,23 @@ print(greeting)
 text = input("Напишіть любий текст:")
 text_lenght = len(text)
 print(text_lenght)
+
+result = 10 + 15
+
+text_result = "1) Результат =" + str(result)
+
+print(text_result)
+
+result_2 = "10" + "15"
+text_result_2 = "2) Результат = " + result_2
+
+print(text_result_2)
+
+print("1) Hello \n 2) World \n 3)Bye")
+choose = input("Choice:")
+if int(choose) =="1":
+    print("-------> Hello <-------")
+elif int(choose) == "2":
+    print("-------> World <-------")
+elif int(choose) =="3":
+    print("-----------> BYE <---------")
